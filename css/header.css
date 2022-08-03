@@ -1,0 +1,232 @@
+/*========= partie responsive du site ==========*/
+
+
+@media screen and (max-width: 550px){
+    nav li {
+        margin: 0 8px;
+    }
+    nav a {
+        font-size: 15px;
+    }
+}
+
+/*========= Body / Header ==========*/
+
+header img {
+    width: 15%;
+}
+
+header {
+    display: flex;
+    box-sizing: border-box;
+    position: fixed !important;
+    top : 0;
+    z-index:16;
+    background-color: #fcd1af;
+}
+
+header p {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 1.2rem;
+    margin-top: 0rem;
+    box-sizing:border-box;
+    background-color: #fbac80;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+}
+
+.bouton {
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    text-decoration: none;
+    background-color: #fbac80;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bolder;
+}
+
+.connexion {
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    text-decoration: none;
+    background-color: #fbac80;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bolder;
+    height: 54px;
+    align-items: center;
+}
+
+.bouton:hover {
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: #fcd1af;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    padding-left: 0;
+    background-color: #fbac80;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    margin-left: 1.2rem;
+    color: #000000;
+}
+
+.btn.btn-third {
+    background-color: #fbac80;
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width:fit-content;
+}
+
+.btn.btn-third:hover {
+    background-color: #fbac80;
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width:fit-content;
+}
+
+.btn.btn-third:active {
+    background-color: #fbac80;
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width:fit-content;
+}
+
+.dropdown-menu {
+    background-color: #fbac80;
+}
+
+.btn_third {
+    background-color: #fbac80;
+    color: #000000;
+    border : 4px solid #fbac80 ;
+    border-radius : 6px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width:fit-content;
+}
+
+.btn_third:hover {
+    color: #000000;
+}
+
+.bouton_panier {
+    color: #000000!important;
+    border : 0px solid #fbac80 ;
+    border-radius : 6px;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+.panier {
+    height: 54px;
+    width: 50px;
+}
+
+.search {
+    width: 810px;
+}
+
+
+
+
+/*color:
+ orange: #fbac80;
+ noir: #000000;
+ orange clair: #fcd1af;
+ */
+
+ 
+/******************** Media Query ******************/
+
+@media screen and (max-width: 1200px) {
+    /* body {
+        width: 55%;
+    } */
+
+    /* header nav {
+        display: none;
+    } */
+
+    p.btn {
+        display: block;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    figure div.img {
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* section {
+        display: block;
+    } */
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        display: block;
+    }
+
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    figure div.img {
+        height: 170px;
+    }
+
+}

@@ -1,0 +1,245 @@
+*, ::before, ::after { /*reset css*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.titre-contact {
+    margin: 50px 0 20px;
+    text-align: center;
+    font-size: 60px;
+    color: #000
+}
+
+/* Formulaire */
+
+form {
+  width: 600px;
+  margin: 50px auto auto auto;
+  box-shadow: 0 10px 15px 5px rgba(0,0,0,0.2);  
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0 20px; 
+}
+
+.label-input {
+    display: block;
+    margin: 10px 0 10px 10px;
+    font-size: 20px;
+}
+
+.label-input:nth-child(1){
+    margin-top: 20px;
+}
+
+.formulaire_contact {
+    display: block;
+    width: 90%;
+    margin: 10px 10px 20px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #000;
+}
+.groupe-check {
+    display: inline;
+}
+.labels-check {
+    font-size: 18px;
+}
+input[type="checkbox"] {
+    display: inline;
+    border: none;
+    margin-right: 20px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+label[for="text"] {
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    margin: 30px 10px 20px;
+}
+
+textarea {
+    font-family: raleway-regular, sans-serif;
+    display: block;
+    width: 90%;
+    height: 200px;
+    margin: 10px 10px 20px;
+    resize: none;
+    font-size: 18px;
+    padding: 18px;
+    border: 1px solid #000;
+}
+
+form button {
+    display: block;
+    margin: 10px auto 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    .titre-contact {
+        margin: 30px 0 20px;
+        font-size: 40px;
+    }
+   form {
+    width: 90%;
+    margin: 80px auto 50px;
+   }
+
+   form h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0 20px; 
+}
+   .groupe-check {
+    display: block;
+    margin: 10px 0 10px 10px;
+    font-size: 20px;
+   }
+}
+
+textarea {
+    width: 80%;
+}
+    input[type="text"] {
+    display: block;
+}
+
+em {
+    color: red;
+}
+
+/*========= Body / rajouts page connexion ==========*/
+
+.lien {
+    color: #000000;
+    text-decoration: none;
+    margin-top : 0.5rem;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn-div-connexion {
+    display: flex;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+.btn-submit {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.btn-div-subscribe {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem 3rem 24rem;
+
+}
+
+.btn-subscribe{
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: black;
+    margin: 1rem;
+}
+
+.link-color{
+    color: black;
+}
+
+.link-color:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+/******************** Media Query ******************/
+
+@media screen and (max-width: 1200px) {
+    /* body {
+        width: 55%;
+    } */
+
+    /* header nav {
+        display: none;
+    } */
+
+    p.btn {
+        display: block;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    figure div.img {
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* section {
+        display: block;
+    } */
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        display: block;
+    }
+
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    figure div.img {
+        height: 170px;
+    }
+
+}

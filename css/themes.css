@@ -1,0 +1,110 @@
+*, ::before, ::after { /*reset css*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- partie body ---------- */
+
+
+.theme-h2 {
+    color: #000;
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: raleway-regular, sans-serif;
+    width: fit-content;
+    padding: 0.8rem;
+    border-radius: 6px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+
+}
+
+.theme-h4 {
+    color: #000;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: raleway-regular, sans-serif;
+}
+
+.theme-h5 {
+    color: #000;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: raleway-regular, sans-serif;
+}
+
+p {
+    color: #000;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: raleway-regular, sans-serif;
+}
+
+label {
+    margin-left: 40px;
+}
+
+.row {
+    justify-content: space-between; /* Répartir équitablement les vignettes sur la largeur */
+}
+
+
+article figure { /* retirer les marges de la figure */
+    margin: auto;
+    
+}
+
+article img {
+    width: 215px;
+    height: 230px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 0.9rem;
+}
+
+article>figure>div {
+    overflow: hidden;
+}
+
+article>figure:hover>div>img {
+    transform: scale(1.1);
+}
+
+        
+figcaption {
+    color: #000;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fcd1af;
+    border-bottom: 2px solid #06080f;
+    padding: 0;
+    list-style-type: none;/* 6. Retirer les puces */
+    background: linear-gradient(to top, #fcd1af 20%, transparent 100%); /* #fff */
+}
+
+figcaption button {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #fbac80;
+}
+
+
+/* ---------- partie responsive du site ---------- */
+@media screen and (max-width: 900px){
+    nav li {
+        margin: 0 8px;
+    }
+    }
+    nav a {
+        font-size: 1.2rem;
+}
+

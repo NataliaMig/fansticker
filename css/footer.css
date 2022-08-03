@@ -1,0 +1,142 @@
+/*========= Body / main ==========*/
+/*
+.filigrane {
+    background-image: url("./images/logo_transparence_50.png");
+    background-position: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50%;
+}
+*/
+
+main {
+    display: flex;
+    margin-top: 13rem;
+    z-index: 9999;
+}
+
+
+
+/*========= Footer ==========*/
+
+footer {
+    display:flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    white-space: normal;
+    /*padding: 0 12px 24px 12px;*/
+}
+
+footer ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ font-size: 1rem;
+ margin: 0 8px 0 8px;
+ padding: 1.2rem;
+ color: #000000;
+ background-color: #fbac80;
+}
+
+footer h3 {
+    font-size: 1.3rem;
+}
+
+.lien {
+    color: #000000;
+    text-decoration: none;
+    margin-top : 0.5rem;
+}
+
+li a:hover {
+    font-display: block;
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.paiement {
+    width:25%;
+}
+
+.reseau1 {
+    width:13%;
+}
+
+.reseau2 {
+    width:40%;
+}
+
+/*color:
+ orange: #fbac80;
+ noir: #000000;
+ orange clair: #fcd1af;
+ */
+
+
+/******************** Media Query ******************/
+
+@media screen and (max-width: 1200px) {
+    /* body {
+        width: 55%;
+    } */
+
+    /* header nav {
+        display: none;
+    } */
+
+    p.btn {
+        display: block;
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    figure div.img {
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    /* section {
+        display: block;
+    } */
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    section {
+        display: block;
+    }
+
+    /* body {
+        width: 100%;
+    } */
+
+    figure div.img {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    figure div.img {
+        height: 170px;
+    }
+
+}
